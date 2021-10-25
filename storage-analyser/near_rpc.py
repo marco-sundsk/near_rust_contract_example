@@ -25,7 +25,7 @@ class NodeJsonProvider(object):
         r.raise_for_status()
         content = json.loads(r.content)
         if "error" in content:
-            raise SpecialNodeJsonProviderError(content["error"])
+            raise NodeJsonProviderError(content["error"])
         return content["result"]
 
     def send_tx(self, signed_tx):
@@ -84,7 +84,7 @@ class NodeJsonProvider(object):
             if "sync_info" in status:
                 ret['latest_block_height'] = status['sync_info']['latest_block_height']
                 ret['syncing'] = status['sync_info']['syncing']
-        except SpecialNodeJsonProviderError as e:
+        except NodeJsonProviderError as e:
             print("ping node MultiNodeJsonProviderError: ", e)
         except Exception as e:
             print("ping node Exception: ", e)
