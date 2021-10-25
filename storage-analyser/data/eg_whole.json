@@ -1,0 +1,37 @@
+{
+  "block_hash": "DCmFxgGYjnzBJkH3ry6xN4jhmfoVBYGSXTf3LorTygD1",
+  "block_height": 68729201,
+  "proof": [],
+  "values": [
+    {
+      "key": "AAAAAAAAAAAA",
+      "proof": [],
+      "value": "AAAAAAABAAAAGwAAAHUxLnRlc3RuZXQ6dGhpcyBpcyBtc2cgb25lLg=="
+    },
+    {
+      "key": "AAEAAAAAAAAA",
+      "proof": [],
+      "value": "AQEAAAAFAAAAAQEAAAABAAAA"
+    },
+    {
+      "key": "AQEAAAAKAAAAdTEudGVzdG5ldA==",
+      "proof": [],
+      "value": "EAAAAHRoaXMgaXMgbXNnIHR3by4="
+    },
+    {
+      "key": "AmUAAAAAAAAAAA==",
+      "proof": [],
+      "value": "CgAAAHUyLnRlc3RuZXQ="
+    },
+    {
+      "key": "AmkKAAAAdTIudGVzdG5ldA==",
+      "proof": [],
+      "value": "AAAAAAAAAAA="
+    },
+    {
+      "key": "U1RBVEU=",
+      "proof": [],
+      "value": "CgAAAHUxLnRlc3RuZXQCAAAAAAAAAAEAAAAAAgAAAAJpAQAAAAAAAAACAAAAAmUAAAAAAAAAAAAAAAAAAAAAAQAAAAoAAAB1Mi50ZXN0bmV0AAAAAA=="
+    }
+  ]
+}
